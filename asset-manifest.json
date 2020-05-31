@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/anup-photo-gallery/static/css/main.359f34c2.chunk.css",
+    "main.js": "/anup-photo-gallery/static/js/main.7efdd6f7.chunk.js",
+    "main.js.map": "/anup-photo-gallery/static/js/main.7efdd6f7.chunk.js.map",
+    "runtime-main.js": "/anup-photo-gallery/static/js/runtime-main.264ad34f.js",
+    "runtime-main.js.map": "/anup-photo-gallery/static/js/runtime-main.264ad34f.js.map",
+    "static/css/2.0955ad6e.chunk.css": "/anup-photo-gallery/static/css/2.0955ad6e.chunk.css",
+    "static/js/2.ffcdc81a.chunk.js": "/anup-photo-gallery/static/js/2.ffcdc81a.chunk.js",
+    "static/js/2.ffcdc81a.chunk.js.map": "/anup-photo-gallery/static/js/2.ffcdc81a.chunk.js.map",
+    "index.html": "/anup-photo-gallery/index.html",
+    "precache-manifest.d236aaa690eac50c078beee4b8d372c3.js": "/anup-photo-gallery/precache-manifest.d236aaa690eac50c078beee4b8d372c3.js",
+    "service-worker.js": "/anup-photo-gallery/service-worker.js",
+    "static/css/2.0955ad6e.chunk.css.map": "/anup-photo-gallery/static/css/2.0955ad6e.chunk.css.map",
+    "static/css/main.359f34c2.chunk.css.map": "/anup-photo-gallery/static/css/main.359f34c2.chunk.css.map",
+    "static/js/2.ffcdc81a.chunk.js.LICENSE.txt": "/anup-photo-gallery/static/js/2.ffcdc81a.chunk.js.LICENSE.txt",
+    "static/media/all.min.css": "/anup-photo-gallery/static/media/fa-solid-900.ec763292.svg",
+    "static/media/hero.jpg": "/anup-photo-gallery/static/media/hero.f8cead42.jpg",
+    "static/media/logo.svg": "/anup-photo-gallery/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.264ad34f.js",
+    "static/css/2.0955ad6e.chunk.css",
+    "static/js/2.ffcdc81a.chunk.js",
+    "static/css/main.359f34c2.chunk.css",
+    "static/js/main.7efdd6f7.chunk.js"
+  ]
+}
