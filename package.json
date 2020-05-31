@@ -1,8 +1,8 @@
 {
+  "homepage": "http://ashwaghosh.github.io/anupPhotoGallery",
   "name": "anup-photo-gallery",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ashwaghosh.github.io/anupPhotoGallery",
   "dependencies": {
     "@material-ui/core": "^4.10.0",
     "@testing-library/jest-dom": "^4.2.4",
