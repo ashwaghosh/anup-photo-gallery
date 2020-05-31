@@ -1,26 +1,40 @@
-import React from 'react';
 import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React, {Component} from 'react';
+import {theme} from "./assets/materialTheme";
+import {ThemeProvider} from '@material-ui/core/styles';
+import Button from "@material-ui/core/Button";
+import {MuiThemeProvider} from "@material-ui/core";
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import store from "./store";
+import {Provider} from 'react-redux';
+import Header from "./layout/Header";
+import Home from "./components/home/Home";
+import Container from "@material-ui/core/Container";
+
+class App extends Component {
+  render() {
+    return (
+
+        <Provider store={store}>
+          <MuiThemeProvider theme={theme}>
+            <Router>
+              <Header/>
+
+                <Switch>
+                  <Route path="/">
+                    <Home/>
+                  </Route>
+                </Switch>
+
+            </Router>
+          </MuiThemeProvider>
+        </Provider>
+
+    );
+  }
 }
 
 export default App;
+
+
