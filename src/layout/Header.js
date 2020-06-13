@@ -1,12 +1,17 @@
 import React, {Component} from 'react';
 import {connect} from "react-redux";
-import {withRouter} from "react-router-dom";
+import {Link, withRouter} from "react-router-dom";
 import PropTypes from "prop-types";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Slide from "@material-ui/core/Slide";
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import CssBaseline from "@material-ui/core/CssBaseline";
+
+import {isEmpty} from "../utils/commonHelper";
+import {logoutUser} from "../action/userAction";
+import Typography from "@material-ui/core/Typography";
+import Button from "../inputfields/Button";
 
 
 function HideOnScroll(props) {
@@ -32,14 +37,32 @@ HideOnScroll.propTypes = {
 
 class Header extends Component {
   render() {
-    const {props} = this;
+    const {profile} = this.props;
+
+    let authOptions = isEmpty(profile) ? (<div>
+      <Link className={'mr-2 text-decoration-none'} to={'/user/signin'}>
+        <Button>Login</Button>
+      </Link>
+      <Link className={"text-decoration-none"} to={'/user/signup'}>
+        <Button>Sign up</Button>
+      </Link>
+    </div>) : (<div>
+      <Button onClick={() => this.props.logoutUser()}>Logout</Button>
+    </div>);
     return (
         <div>
 
-          <HideOnScroll {...props}>
+          <HideOnScroll>
             <AppBar>
-              <Toolbar className="justify-content-center">
-                <h3>Anup's PortFolio</h3>
+              <Toolbar className="justify-content-between">
+                <Link className={'text-decoration-none'}  to={"/"}>
+                  <Typography variant="h5">
+                    ANUP photo gallery
+                  </Typography>
+                </Link>
+                {
+                  authOptions
+                }
               </Toolbar>
             </AppBar>
           </HideOnScroll>
@@ -53,6 +76,8 @@ class Header extends Component {
 
 Header.propTypes = {};
 
-const mapStateToProps = state => ({});
+const mapStateToProps = state => ({
+  profile: state.userState.profile
+});
 
-export default connect(mapStateToProps, {})(withRouter(Header));
+export default connect(mapStateToProps, {logoutUser})(withRouter(Header));
