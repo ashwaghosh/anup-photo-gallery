@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/anup-photo-gallery/precache-manifest.d236aaa690eac50c078beee4b8d372c3.js"
+  "/anup-photo-gallery/precache-manifest.c17be1a7fb630d5454e681d57d741572.js"
 );
 
 self.addEventListener('message', (event) => {

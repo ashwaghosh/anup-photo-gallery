@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "da5cd60c81b5570626f73316fcf1ba43",
+    "revision": "0e209c2a6e1b9a874a4cc213583c3763",
     "url": "/anup-photo-gallery/index.html"
   },
   {
-    "revision": "164e91d76ba0f0e3cc82",
+    "revision": "0293bc5a174de177d1bb",
     "url": "/anup-photo-gallery/static/css/2.0955ad6e.chunk.css"
   },
   {
-    "revision": "136c22c64a01c12a5fbb",
-    "url": "/anup-photo-gallery/static/css/main.359f34c2.chunk.css"
+    "revision": "8f9c7dd5cfa5d9a05aad",
+    "url": "/anup-photo-gallery/static/css/main.6588d1c1.chunk.css"
   },
   {
-    "revision": "164e91d76ba0f0e3cc82",
-    "url": "/anup-photo-gallery/static/js/2.ffcdc81a.chunk.js"
+    "revision": "0293bc5a174de177d1bb",
+    "url": "/anup-photo-gallery/static/js/2.ab1b4e86.chunk.js"
   },
   {
     "revision": "29d944d350ae16cdb652b452ef3b2793",
-    "url": "/anup-photo-gallery/static/js/2.ffcdc81a.chunk.js.LICENSE.txt"
+    "url": "/anup-photo-gallery/static/js/2.ab1b4e86.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "136c22c64a01c12a5fbb",
-    "url": "/anup-photo-gallery/static/js/main.7efdd6f7.chunk.js"
+    "revision": "8f9c7dd5cfa5d9a05aad",
+    "url": "/anup-photo-gallery/static/js/main.2ed00e1d.chunk.js"
   },
   {
     "revision": "78911708e9020df4b740",
@@ -88,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/anup-photo-gallery/static/media/fa-solid-900.ec763292.svg"
   },
   {
-    "revision": "f8cead42843d8a7d565de5ab36fb8118",
-    "url": "/anup-photo-gallery/static/media/hero.f8cead42.jpg"
+    "revision": "43f363ab43d439d4212aef1d2c93f91a",
+    "url": "/anup-photo-gallery/static/media/hero.43f363ab.jpg"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
